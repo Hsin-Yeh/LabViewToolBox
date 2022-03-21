@@ -10,6 +10,21 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="Tektronix DPO MSO 2000 4000 Series Acquire Continuous Waveform Example.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix DPO MSO 2000 4000 Series/Examples/Tektronix DPO MSO 2000 4000 Series Acquire Continuous Waveform Example.vi"/>
+			<Item Name="Tektronix DPO MSO 2000 4000 Series Acquire Digital Voltmeter Example.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix DPO MSO 2000 4000 Series/Examples/Tektronix DPO MSO 2000 4000 Series Acquire Digital Voltmeter Example.vi"/>
+			<Item Name="Tektronix DPO MSO 2000 4000 Series Acquire Digital Waveform Example.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix DPO MSO 2000 4000 Series/Examples/Tektronix DPO MSO 2000 4000 Series Acquire Digital Waveform Example.vi"/>
+			<Item Name="Tektronix DPO MSO 2000 4000 Series Acquire Multiple Digital Waveforms Example.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix DPO MSO 2000 4000 Series/Examples/Tektronix DPO MSO 2000 4000 Series Acquire Multiple Digital Waveforms Example.vi"/>
+			<Item Name="Tektronix DPO MSO 2000 4000 Series Acquire Multiple Waveform Example.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix DPO MSO 2000 4000 Series/Examples/Tektronix DPO MSO 2000 4000 Series Acquire Multiple Waveform Example.vi"/>
+			<Item Name="Tektronix DPO MSO 2000 4000 Series Acquire Waveform Example.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix DPO MSO 2000 4000 Series/Examples/Tektronix DPO MSO 2000 4000 Series Acquire Waveform Example.vi"/>
+			<Item Name="Tektronix DPO MSO 2000 4000 Series Acquire Waveform Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix DPO MSO 2000 4000 Series/Examples/Tektronix DPO MSO 2000 4000 Series Acquire Waveform Measurement.vi"/>
+			<Item Name="Tektronix DPO MSO 2000 4000 Series Configure and Read Frequency Domain Measurements.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix DPO MSO 2000 4000 Series/Examples/Tektronix DPO MSO 2000 4000 Series Configure and Read Frequency Domain Measurements.vi"/>
+			<Item Name="Tektronix DPO MSO 2000 4000 Series Create Arbitrary Waveform Example.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix DPO MSO 2000 4000 Series/Examples/Tektronix DPO MSO 2000 4000 Series Create Arbitrary Waveform Example.vi"/>
+			<Item Name="Tektronix DPO MSO 2000 4000 Series Create Standard Waveforms Example.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix DPO MSO 2000 4000 Series/Examples/Tektronix DPO MSO 2000 4000 Series Create Standard Waveforms Example.vi"/>
+			<Item Name="Tektronix DPO MSO 2000 4000 Series Edge Triggered Acquisition Waveform Example.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix DPO MSO 2000 4000 Series/Examples/Tektronix DPO MSO 2000 4000 Series Edge Triggered Acquisition Waveform Example.vi"/>
+			<Item Name="Tektronix DPO MSO 2000 4000 Series Transfer Current Waveform Example.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix DPO MSO 2000 4000 Series/Examples/Tektronix DPO MSO 2000 4000 Series Transfer Current Waveform Example.vi"/>
+			<Item Name="Tektronix DPO MSO 2000 4000 Series.bin3" Type="Document" URL="/&lt;instrlib&gt;/Tektronix DPO MSO 2000 4000 Series/Examples/Tektronix DPO MSO 2000 4000 Series.bin3"/>
+		</Item>
 		<Item Name="IVR" Type="Folder" URL="../IVR">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -69,16 +84,21 @@
 				<Item Name="niScope trigger slope.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope trigger slope.ctl"/>
 				<Item Name="niScope trigger source.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope trigger source.ctl"/>
 				<Item Name="niScope vertical coupling.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope vertical coupling.ctl"/>
+				<Item Name="Tektronix DPO MSO 2000 4000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Tektronix DPO MSO 2000 4000 Series/Tektronix DPO MSO 2000 4000 Series.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Compress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Compress Digital.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="DTbl Compress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Compress Digital.vi"/>
+				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
+				<Item Name="DWDT Compress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Compress Digital.vi"/>
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
@@ -125,7 +145,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="niScope_32.dll" Type="Document" URL="niScope_32.dll">
+			<Item Name="niScope_64.dll" Type="Document" URL="niScope_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
