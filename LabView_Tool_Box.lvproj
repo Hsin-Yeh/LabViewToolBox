@@ -25,6 +25,17 @@
 			<Item Name="Tektronix DPO MSO 2000 4000 Series Transfer Current Waveform Example.vi" Type="VI" URL="/&lt;instrlib&gt;/Tektronix DPO MSO 2000 4000 Series/Examples/Tektronix DPO MSO 2000 4000 Series Transfer Current Waveform Example.vi"/>
 			<Item Name="Tektronix DPO MSO 2000 4000 Series.bin3" Type="Document" URL="/&lt;instrlib&gt;/Tektronix DPO MSO 2000 4000 Series/Examples/Tektronix DPO MSO 2000 4000 Series.bin3"/>
 		</Item>
+		<Item Name="GSM Series examples" Type="Folder">
+			<Item Name="GSM Custom Math Operation.vi" Type="VI" URL="/&lt;instrlib&gt;/GSM Series/Examples/GSM Custom Math Operation.vi"/>
+			<Item Name="GSM Output List and Acquire.vi" Type="VI" URL="/&lt;instrlib&gt;/GSM Series/Examples/GSM Output List and Acquire.vi"/>
+			<Item Name="GSM Perform Limit Tests.vi" Type="VI" URL="/&lt;instrlib&gt;/GSM Series/Examples/GSM Perform Limit Tests.vi"/>
+			<Item Name="GSM Perform Statistical Operation.vi" Type="VI" URL="/&lt;instrlib&gt;/GSM Series/Examples/GSM Perform Statistical Operation.vi"/>
+			<Item Name="GSM Read Multiple - SW Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/GSM Series/Examples/GSM Read Multiple - SW Trigger.vi"/>
+			<Item Name="GSM Read Multiple.vi" Type="VI" URL="/&lt;instrlib&gt;/GSM Series/Examples/GSM Read Multiple.vi"/>
+			<Item Name="GSM Read Single.vi" Type="VI" URL="/&lt;instrlib&gt;/GSM Series/Examples/GSM Read Single.vi"/>
+			<Item Name="GSM Sweep and Acquire Measurements.vi" Type="VI" URL="/&lt;instrlib&gt;/GSM Series/Examples/GSM Sweep and Acquire Measurements.vi"/>
+			<Item Name="GSM Test and Memory Sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/GSM Series/Examples/GSM Test and Memory Sweep.vi"/>
+		</Item>
 		<Item Name="IVR" Type="Folder" URL="../IVR">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -43,8 +54,13 @@
 		<Item Name="Scope" Type="Folder" URL="../Scope">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="SNSPD_Measurement" Type="Folder" URL="../SNSPD_Measurement">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Configure Autozero.vi" Type="VI" URL="/&lt;instrlib&gt;/GSM Series/Public/Configure/Configure Autozero.vi"/>
+				<Item Name="GSM.lvlib" Type="Library" URL="/&lt;instrlib&gt;/GSM Series/GSM.lvlib"/>
 				<Item Name="Keithley 24XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX.lvlib"/>
 				<Item Name="niScope Abort.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Abort.vi"/>
 				<Item Name="niScope Actual Record Length.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Horizontal/niScope Actual Record Length.vi"/>
@@ -143,6 +159,11 @@
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="Waveform Min Max.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Min Max.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
+				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="niScope_64.dll" Type="Document" URL="niScope_64.dll">
